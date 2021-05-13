@@ -5,8 +5,9 @@ prepare:
 featurize:
   max_features: 501
   ngrams: 1
+  ngrams: 2
 
 train:
   seed: 20170428
-  n_est: 50
-  min_split: 2
+  n_est: 100
+  min_split: 64
