@@ -4,7 +4,6 @@ prepare:
 
 featurize:
   max_features: 501
-  ngrams: 1
   ngrams: 2
 
 train:
