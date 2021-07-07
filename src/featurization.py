@@ -6,6 +6,7 @@ import pickle
 import scipy.sparse as sparse
 import yaml
 
+
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
